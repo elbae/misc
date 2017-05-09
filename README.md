@@ -29,3 +29,8 @@ update-cracklib (8)  - Regenerate cracklib dictionary
 ```
 whatis (1)           - display one-line manual page descriptions
 ```
+
+### info
+```
+info (1)             - read Info documents
+```
