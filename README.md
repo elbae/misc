@@ -34,3 +34,9 @@ whatis (1)           - display one-line manual page descriptions
 ```
 info (1)             - read Info documents
 ```
+
+### zless
+```
+zless (1)            - file perusal filter for crt viewing of compressed text
+	read .gzip
+```
