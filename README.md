@@ -7,6 +7,6 @@
 4 Special files such as device nodes and drivers
 5 File formats
 6 Games and amusements
-7 Misc
+7 Misc\n
 8 Sysadmin commands
 
