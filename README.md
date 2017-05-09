@@ -30,3 +30,8 @@ fcrackzip (1)        - a Free/Fast Zip Password Cracker
 fcrackzipinfo (1)    - display zip information
 update-cracklib (8)  - Regenerate cracklib dictionary
 ```
+
+### whatis
+```
+whatis (1)           - display one-line manual page descriptions
+```
