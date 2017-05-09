@@ -17,3 +17,16 @@
 
 8 Sysadmin commands
 
+### apropos
+apropos - search the list of man pages for possible matches based on a search term.
+```
+apropos crack
+cracklib-check (8)   - Check passwords using libcrack2
+cracklib-format (8)  - cracklib dictionary utilities
+cracklib-packer (8)  - cracklib dictionary utilities
+cracklib-unpacker (8) - cracklib dictionary utilities
+create-cracklib-dict (8) - Check passwords using libcrack2
+fcrackzip (1)        - a Free/Fast Zip Password Cracker
+fcrackzipinfo (1)    - display zip information
+update-cracklib (8)  - Regenerate cracklib dictionary
+```
