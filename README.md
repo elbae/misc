@@ -40,3 +40,9 @@ info (1)             - read Info documents
 zless (1)            - file perusal filter for crt viewing of compressed text
 	read .gzip
 ```
+## Expansion
+
+```
+echo Front-{A,B,C}-Back
+Front-A-Back Front-B-Back Front-C-Back
+```
