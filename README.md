@@ -71,3 +71,18 @@ alt+f    move cursor forward one word.
 alb+b    move cursor backward one word.
 ctrl+l   clear.
 ```
+
+### Edit, cut and paste commands
+```
+ctrl+d   delete the char.
+ctrl+t   transpose the current char with the preceding.
+alt+t    transpose the word with the preceding.
+alt+l    convert the chars from the cursor to the end to lowercase.
+alt+u    convert the chars from the cursor to the end to uppercase.
+
+ctrl+k   kill text from cursor to end of the line.
+ctrl+u   kill text from cursor to beginning of the line.
+alt+d    kill text from cursor to end of the word.
+alt+bksp kill text from cursor to beginning of the word.
+ctrl+y   yank text from kill-ring and insert it at the cursor location
+```
