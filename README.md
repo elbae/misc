@@ -46,3 +46,19 @@ zless (1)            - file perusal filter for crt viewing of compressed text
 echo Front-{A,B,C}-Back
 Front-A-Back Front-B-Back Front-C-Back
 ```
+```
+echo Num_{1..10}
+Num_1 Num_2 Num_3 Num_4 Num_5 Num_6 Num_7 Num_8 Num_9 Num_10
+```
+
+```
+echo {Z..A}    
+Z Y X W V U T S R Q P O N M L K J I H G F E D C B A
+```
+
+```
+echo {Z,A{1..5},b{1..3}} 
+Z A1 A2 A3 A4 A5 b1 b2 b3
+```
+
+###
