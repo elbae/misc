@@ -1,4 +1,4 @@
-# Some commands to remember
+# Some shell commands
 
 ### Man page organization
 ```
