@@ -65,9 +65,9 @@ Z A1 A2 A3 A4 A5 b1 b2 b3
 ```
 ctrl+a   move cursor to the beginning of the line.
 ctrl+e   move cursor to the end of the line.
-ctrl+f   move cursor forward one char
-ctrl+b   move cursor backward one char
-alt+f    move cursor forward one word
-alb+b    move cursor backward one word
-ctrl+l   clear 
+ctrl+f   move cursor forward one char.
+ctrl+b   move cursor backward one char.
+alt+f    move cursor forward one word.
+alb+b    move cursor backward one word.
+ctrl+l   clear.
 ```
