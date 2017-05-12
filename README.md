@@ -135,12 +135,51 @@ drwxrwx---   directory, owner and members of the same group may enter the dir an
 drwxr-x---   directory, owner may enter the directory and create, rename and delete files. Members of the same group may enter but cannot create, delete, or rename files.
 ```
 
-### Chmod 
+### chmod 
 Changes the mode (permission) of a file or directory with either octal number representation and symbolic representation.
 
-####test
+Octal representation
 ```
+0   000   ---
+1   001   --x
+2   010   -w-
+3   011   -wx
+4   100   r--
+5   101   r-x
+6   110   rw-
+7   111   rwx
+```
+examples
+```
+chmod 777 foo.txt --> -rwxrwxrwx 1 andrea andrea 1 mag 12 15:30 foo.txt
+chmod 600 foo.txt --> -rw------- 1 andrea andrea 1 mag 12 15:30 foo.txt
+chmod 640 foo.txt --> -rw-r----- 1 andrea andrea 1 mag 12 15:30 foo.txt
+chmod 711 fox.txt --> -rwx--x--x 1 andrea andrea 1 mag 12 15:30 foo.txt
 ```
 
+Symbolic representation:
+```
+- whom the change will affect: u,g,o,a (user,group owner, others, all)
+- which operation will be performed: +-= (add,remove,apply and remove others)
+- which permission will be set: rwx
+```
+examples:
+```
+chmod a=rwx foo.txt --> -rwxrwxrwx 1 andrea andrea 1 mag 12 15:30 foo.txt
+chmod a-rwx,u=rw foo.txt --> -rw------- 1 andrea andrea 1 mag 12 15:30 foo.txt
+``
+### umask
+Sets the file mode creation mask to mask & 0777 (uses only the permission bits). It uses octal notation to express a mask of bits to be removed from a file's mode attributes.
 
+example:
+```
+umask 0002 --> -rw-rw-r-- 1 andrea andrea 0 mag 12 17:26 foo.txt
+umask 0000 --> -rw-rw-rw- 1 andrea andrea 0 mag 12 17:26 foo.txt (default)
+```
 
+# setuid, setgid
+Using chmod is possible to set uid and gid to root.
+```
+chmod u+s foo.txt --> -rwsrw-rw- 1 andrea andrea 0 mag 12 17:30 foo.txt
+chmod g+d dir/
+```
