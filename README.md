@@ -167,7 +167,7 @@ examples:
 ```
 chmod a=rwx foo.txt --> -rwxrwxrwx 1 andrea andrea 1 mag 12 15:30 foo.txt
 chmod a-rwx,u=rw foo.txt --> -rw------- 1 andrea andrea 1 mag 12 15:30 foo.txt
-``
+```
 ### umask
 Sets the file mode creation mask to mask & 0777 (uses only the permission bits). It uses octal notation to express a mask of bits to be removed from a file's mode attributes.
 
