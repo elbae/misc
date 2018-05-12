@@ -1,1 +1,4 @@
-`ls`
+<!ENTITY flag SYSTEM "file:///me/flag">
+<content>
+ <info>&flag;</info>
+</content>
