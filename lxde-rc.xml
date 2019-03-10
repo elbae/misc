@@ -1,0 +1,116 @@
+<!-- Configurazione modificata  -->
+<!-- cp conf/lxde-rc.xml ~/.config/openbox/; openbox --reconfigure -->
+<!-- W 9 -> nuovo terminale  -->
+<keybind key="W-9">
+  <action name="Execute">
+      <enabled>yes</enabled>
+      <name>Terminal</name>
+      <icon>konsole</icon>
+      <command>lxterminal</command>
+      <maximized>yes</maximized>
+  </action>
+</keybind>
+
+<!-- W 1 -> -->
+<keybind key="W-1">
+  <action name="Desktop">
+    <desktop>1</desktop>
+  </action>
+</keybind>
+
+<!-- W 2 -->
+<keybind key="W-2">
+  <action name="Desktop">
+    <desktop>2</desktop>
+  </action>
+</keybind>
+
+<!-- W 3 -->
+<keybind key="W-3">
+  <action name="Desktop">
+    <desktop>3</desktop>
+  </action>
+</keybind>
+
+<!-- W 4 -->
+<keybind key="W-4">
+  <action name="Desktop">
+    <desktop>4</desktop>
+  </action>
+</keybind>
+
+<!-- Ctrl shift 1 -> send to desktop 1 -->
+<keybind key="W-S-1">
+  <action name="SendToDesktop"><to>1</to></action>
+</keybind>
+
+<!-- Ctrl shift 2 -> send to desktop 2 -->
+<keybind key="W-S-2">
+  <action name="SendToDesktop"><to>2</to></action>
+</keybind>
+
+<!-- Ctrl shift 3 -> send to desktop 3 -->
+<keybind key="W-S-3">
+  <action name="SendToDesktop"><to>3</to></action>
+</keybind>
+
+<!-- Ctrl shift 4 -> send to desktop 4 -->
+<keybind key="W-S-4">
+  <action name="SendToDesktop"><to>4</to></action>
+</keybind>
+
+<!-- W s - Per minimizzare la finestre -->
+<keybind key="W-s">
+  <action name="Iconify"/>
+</keybind>
+
+<!-- W a -->
+<keybind key="W-q">
+  <action name="UnmaximizeFull"/>
+    <action name="MoveResizeTo">
+      <x>0</x>
+      <y>0</y>
+      <width>50%</width>
+    <height>97%</height>
+  </action>
+</keybind>
+
+<!-- W d -->
+<keybind key="W-e">
+  <action name="UnmaximizeFull"/>
+    <action name="MoveResizeTo">
+      <x>1/2</x>
+      <y>0</y>
+      <width>50%</width>
+    <height>97%</height>
+  </action>
+</keybind>
+<!-- W w - The maximize button shown in window titlebars -->
+<keybind key="W-w">
+  <action name="Maximize"/>
+</keybind>
+
+<!-- W S q -> chiude l'applicazione corrente -->
+<keybind key="W-S-q">
+  <action name="Close"/>
+</keybind>
+
+<!-- W + j  -> Desktop precedente -->
+<keybind key="W-j">
+  <action name="GoToDesktop"><to>left</to><wrap>no</wrap></action>
+</keybind>
+
+<!-- W + k -> Desktop successivo -->
+<keybind key="W-k">
+  <action name="GoToDesktop"><to>right</to><wrap>no</wrap></action>
+</keybind>
+
+<!-- Alt + spazio apre il menu --> <!-- SBAGLIATO -->
+<keybind key="A-space">
+  <action name="ShowMenu">
+    <menu>root-menu</menu>
+  </action>
+</keybind>
+
+
+<!-- Fine configurazione modificata -->    
