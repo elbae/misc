@@ -7,6 +7,8 @@
 # Version: From 2012r1.0 to 5.5.6
 # Tested on: 
 #	- Ubuntu 18.04.2 LTS
+#	- CentOS Linux release 7.6.1810 (Core)
+#
 #	- Nagios XI 5.5.6
 # CVE: CVE-2018-15708, CVE-2018-15710
 #
