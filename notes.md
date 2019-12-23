@@ -283,6 +283,8 @@ gpp-decrypt
 ## Privilege escalation - Linux
 * Mempodipper - Linux Local Root for >=2.6.39, 32-bit and 64-bit (Ubuntu 11.10, 32 bit CVE 2012-0056)
 	* http://www.exploit-db.com/download/18411 Mempodipper
+* Linux Kernel 2.2.x/2.4.x (RedHat) - 'ptrace/kmod' Local Privilege Escalation
+	* https://www.exploit-db.com/exploits/3
 
 ## Redis
 http://reverse-tcp.xyz/pentest/database/2017/02/09/Redis-Hacking-Tips.html
