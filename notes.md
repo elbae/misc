@@ -135,6 +135,9 @@ https://www.systutorials.com/docs/linux/man/1-i686-w64-mingw32-gcc/
 ```
 
 # File transfer
+
+https://blog.ropnop.com/transferring-files-from-kali-to-windows/
+
 ## TFTP
 Server
 ```bash
