@@ -291,3 +291,8 @@ gpp-decrypt
 
 ## Redis
 http://reverse-tcp.xyz/pentest/database/2017/02/09/Redis-Hacking-Tips.html
+
+
+
+## Complete Interactive Web Shell
+https://innogen-security.com/linux-tty-shell-using-script/
