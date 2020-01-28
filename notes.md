@@ -258,6 +258,9 @@ net localgroup administrators hacker /add
 
 net localgroup "Remote Desktop Users" hacker /add
 ```
+## Verify missing patch
+https://github.com/rasta-mouse/Sherlock.git
+
 ### Exploits
 * MS11-080 - Windows XP, Windows 2003 Adf.sys 
 	* http://www.exploit-db.com/exploits/18176/ MS11-080
