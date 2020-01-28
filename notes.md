@@ -73,6 +73,14 @@ nmap IP --script smb-*
 
 nmap -sU --open -p 161 IP
 
+Preferred
+```
+nmap IP -sC -oA nmap-sc
+nmap IP -sC -pPORTE -sV -A -oA nmap-sc-sv-a
+nmap IP -sC -pPORTE -sV --script=vuln -oA nmap-sc-sv-vuln
+nmap IP -p- -sC -oA nmap-allp-sc
+```
+then some UDP
 ### nbtscan
 nbtscan -r IP
 
