@@ -312,9 +312,11 @@ http://reverse-tcp.xyz/pentest/database/2017/02/09/Redis-Hacking-Tips.html
 
 
 
-## Complete Interactive Web Shell
+## Complete Interactive Reverse Shell
 https://innogen-security.com/linux-tty-shell-using-script/
 
+## Web shell php,asp,aspx
+https://github.com/grCod/webshells/tree/master/webshells
 
 
 ## Misc Bof
