@@ -249,6 +249,11 @@ wine exe2bat.exe nc.exe nc.txt
 ```
 todo
 
+## Privilege escalation - Generic
+https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite 
+-> linpeas
+-> winpeas
+
 ## Privilege escalation - Windows
 
 
