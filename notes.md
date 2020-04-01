@@ -1,56 +1,19 @@
-# This is an example < h1 <h1> tag
-## This is an  < h2 <h2> tag
-###### This is an <h6> tag
+# Tips Mobile
 
+## Android : Download apk from smartphone
+### Verify if device is connected
+```adb devices```
 
+### View list of installed packages
+```adb shell pm list packages```
 
-*This text will be italic*
-_This will also be italic_
+### Get path of apk
+```adb shell pm path com.example.example```
 
-**This text will be bold**
-__This will also be bold__
+### Get apk 
+```adb pull /data/app/com.example.example.path.ecc.ecc```
 
-_You **can** combine them_
-
-
-
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-
-
-
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-
-
-
-http://github.com - automatic!
-[GitHub](http://github.com)
-
-
-
-I think you should use an
-`<addr>` element here instead.
-
-
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-
-
----------------------------------------
-# Tips
+# Tips PT RT
 
 ## Reverse shell
 
