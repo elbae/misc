@@ -217,6 +217,10 @@ https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite
 -> linpeas
 -> winpeas
 
+## SMB RELAY - Windows
+
+https://intrinium.com/smb-relay-attack-tutorial/
+
 ## Privilege escalation - Windows
 
 
