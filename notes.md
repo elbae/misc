@@ -54,7 +54,16 @@ enum4linux -a IP
 
 ### smbclient
 
+#### example with creds
 
+smbclient -A credentials.txt //10.123.42.144/Doc
+
+where credentials.txt is:
+```bash
+username = <value>
+password = <value>
+domain   = <value>
+```
 
 
 ```bash
