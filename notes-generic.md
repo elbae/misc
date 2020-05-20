@@ -1,18 +1,3 @@
-# Tips Mobile
-
-## Android : Download apk from smartphone
-### Verify if device is connected
-```adb devices```
-
-### View list of installed packages
-```adb shell pm list packages```
-
-### Get path of apk
-```adb shell pm path com.example.example```
-
-### Get apk 
-```adb pull /data/app/com.example.example.path.ecc.ecc```
-
 # Tips PT RT
 
 ## Reverse shell
