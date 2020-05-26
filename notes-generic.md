@@ -316,3 +316,7 @@ BAD_CHARS +=b'\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff'
 ```
 
 https://medium.com/@johntroony/a-practical-overview-of-stack-based-buffer-overflow-7572eaaa4982
+
+###TIP: 
+
+If you can't listen on port 80 during a bind shell, try adding the URI '/Temporary_Listen_Address/' to ur listener. Magic! You don't need administrative privileges to listen on port 80 on Windows anymore  https://twitter.com/NinjaParanoid/status/1265187842889744384
