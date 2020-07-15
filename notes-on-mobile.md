@@ -22,3 +22,6 @@ https://apkfollow.com
 
 External refs:
 https://manifestsecurity.com/android-application-security/
+
+### Using Frida on Android without root
+https://koz.io/using-frida-on-android-without-root/
