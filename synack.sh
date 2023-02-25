@@ -47,6 +47,19 @@ sudo aptitude install python3-pip
 alias crackmapexec='cd /opt/CrackMapExec; ~/.local/bin/poetry run crackmapexec'
 
 cd ~/Downloads/
+wget -q https://github.com/OJ/gobuster/releases/download/v3.5.0/gobuster_3.5.0_Linux_x86_64.tar.gz
+tar xfvz gobuster_3.5.0_Linux_x86_64.tar.gz
+rm gobuster_3.5.0_Linux_x86_64.tar.gz
+rm LICENSE
+rm README.md
+mv gobuster /opt/
+chmod +x /opt/gobuster
+cd
+
+
+cd ~/Downloads/
 wget -q 'https://portswigger-cdn.net/burp/releases/download?product=pro&version=2023.1.2&type=Linux' -O burppro.sh
 chmod +x burppro.sh
 ./burppro.sh
+
+
