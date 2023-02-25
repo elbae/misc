@@ -1,4 +1,4 @@
-!/usr/bin/bash
+#!/usr/bin/bash
 
 export ME=$(whoami | tr -d '\n')
 
