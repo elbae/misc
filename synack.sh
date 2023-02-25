@@ -7,6 +7,7 @@ sudo apt install aptitude
 sudo chown -R $ME: /opt/ 
 sudo aptitude install zsh
 sudo aptitude install sublime-text
+sudo aptitude install crunch
 
 git clone https://github.com/danielmiessler/SecLists.git /opt/SecLists
 cd ~/Downloads/
