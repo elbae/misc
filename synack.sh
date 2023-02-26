@@ -30,7 +30,7 @@ unzip nuclei_2.8.9_linux_amd64.zip
 rm ~/Downloads/nuclei_2.8.9_linux_amd64.zip &
 mv ~/Downloads/nuclei /opt/nuclei
 file /opt/nuclei
-
+mkdir /opt/nuclei-output/
 cd
 
 
