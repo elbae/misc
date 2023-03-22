@@ -9,6 +9,7 @@ sudo aptitude install zsh
 sudo aptitude install sublime-text
 sudo aptitude install crunch
 
+git clone https://github.com/sqlmapproject/sqlmap.git /opt/sqlmap
 git clone https://github.com/danielmiessler/SecLists.git /opt/SecLists
 cd ~/Downloads/
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall && rm msfinstall
