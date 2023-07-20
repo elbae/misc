@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/elbae/misc/master/swagger-ui-xss-test/test.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/elbae/misc/master/swagger-ui-xss-test/test.yaml",
+            "name": "Foo"
+        }
+    ]
+}
