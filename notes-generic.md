@@ -340,6 +340,42 @@ BAD_CHARS +=b'\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff'
 
 https://medium.com/@johntroony/a-practical-overview-of-stack-based-buffer-overflow-7572eaaa4982
 
-###TIP: 
+### TIP: 
 
 If you can't listen on port 80 during a bind shell, try adding the URI '/Temporary_Listen_Address/' to ur listener. Magic! You don't need administrative privileges to listen on port 80 on Windows anymore  https://twitter.com/NinjaParanoid/status/1265187842889744384
+
+---
+## OSINT
+### Cloudmare
+Url: https://github.com/mrh0wl/Cloudmare
+
+> **Cloudmare**
+Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri, or Incapsula with a misconfigured DNS.
+For more details about this common misconfiguration and how Cloudmare works, send me a private message.
+
+Last visited: 11/01/2024 
+Last update: 25/07/2023
+
+## Cracking 
+### Codetective
+
+Url: https://github.com/blackthorne/Codetective
+
+> Sometimes we run into hashes and other artefacts and can't figure out where did they come from and how they were generated. This tool is able to recognise the output format of many different algorithms in many different possible encodings for analysis purposes. It also infers the levels of certainty for each finding based on traces of its representation .
+This may be useful e.g. when you are testing systems from a security perspective and are able to grab a password file with hashed contents maybe from an exposed backup file or by dumping memory. This may also be useful as a part of a fingerprinting process or simply to verify valid implementations of different algorithms. You may also try running this tool against network traffic captures or large source code repositories to look out for interesting stuff.
+You can either use a generic version or as a plugin for the Volatility framework. The usage is similar.
+
+Last visited: 11/01/2024 
+Last update: 12/04/2018
+
+
+## Phishing
+### Decode Spam Headers
+
+Url: https://github.com/mgeeky/decode-spam-headers
+> Whether you are trying to understand why a specific e-mail ended up in SPAM/Junk for your daily Administrative duties or for your Red-Team Phishing simulation purposes, this script is there for you to help!
+
+
+
+Last visited: 11/01/2024 
+Last update: 27/07/2023
