@@ -311,7 +311,19 @@ CTRL + Z
 stty raw -echo; fg; reset
 ```
 
+-----------------
 
+You can create yourself a nicer shell:
+
+In reverse shell
+$ python -c 'import pty; pty.spawn("/bin/bash")'
+
+Ctrl-Z
+
+In OS
+$ stty raw -echo
+
+$ fg
 
 ## Web shell php,asp,aspx
 https://github.com/grCod/webshells/tree/master/webshells
